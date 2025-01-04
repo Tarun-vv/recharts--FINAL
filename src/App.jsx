@@ -1,3 +1,5 @@
+import ReactCalender from "./calender/ReactCalender";
+import ReactSchedule from "./calender/ReactSchedule";
 import AreaGraph from "./graphs/AreaGraph";
 import BarGraph from "./graphs/BarGraph";
 import CircularGraph from "./graphs/CircularGraph";
@@ -24,6 +26,12 @@ function App() {
 
       <h2>Bar Chart</h2>
       <BarGraph />
+
+      <h2>Calender</h2>
+      <ReactCalender />
+
+      <h2> Schedule Calender</h2>
+      <ReactSchedule />
     </div>
   );
 }
